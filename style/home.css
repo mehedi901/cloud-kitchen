@@ -1,0 +1,58 @@
+body{ 
+    background: url(../Pic/pexels-elle-hughes-1660030.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+ 
+
+
+ body  {
+    text-align: right;
+ } 
+   nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   }
+  nav > ul {
+    display: flex;
+  }
+  nav li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 52px;
+    padding: 5px;
+  }
+  nav li a {
+    text-decoration: none;
+    color: black;
+    font-style: bold;
+    font-size: 20px;
+  }
+  .home-btn{
+    margin-top: -5px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color:#2A4634 ;
+  }
+.h1-welcome{
+  font-size: 150px;
+  margin-right: 200px;
+  font-weight: 5;
+  font-family: 'Segoe Script', sans-serif;
+                                                
+}
+.h2-p{
+  margin-right:150px ;
+  margin-top: -100px;
+  font-size: 50px;
+
+  font-weight: 5;
+  font-family: 'Segoe print', sans-serif;
+}
+main{
+  margin-top: 50px;
+}
