@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: url(../Pic/pexels-mariana-kurnyk-1775043.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.logback{
+    padding: 20px;
+    height: 210px;
+    width: 300px;
+    background-color:white;
+    border-radius: 20px;
+    
+}
+.btn{
+display: flex;
+}
+.btnl{
+    margin-top: 10px;
+}
+#btn{
+    margin-left: 30px;
+    padding: 10px;
+}
+#btn1{
+    padding: 10px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    background-color: #DBCAC2;
+    border-radius: 10px;
+    border: none;
+}
+input{
+    background-color: #DBCAC2;
+   
+}
+.logback h1{
+    font-family: 'Segoe Script', sans-serif;
+    color: #DBCAC2;
+}
