@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+    
+
+.sign_up{
+    height: 100vh;
+    background: url(/Pic/pexels-katerina-holmes-5907901.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color:transparent;
+    border: solid #60b460;
+    backface-visibility: initial;
+    border-radius: 20px;
+    width: 380px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #008824;
+    font-size: 30px;
+    font-family: 'Segoe Script', sans-serif;
+}
+
+
+
+
+#create{
+    font-size: 12px;
+}
+
+input{
+    padding: 6px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.details input{
+   width: 335px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+
+.check{
+    display: inline-block;
+}
+
+#register_btn{
+    text-decoration: none;
+    padding: 10px 120px;
+    border: 1px solid green;
+    background: green;
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#register_btn:hover{
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: .5s;
+}
+
+.term a{
+    color: green;
+}
+
+#privacy{
+    color: green;
+}
+
+.signIn{
+    display: block;
+    color: black;
+    position: absolute;
+    top: 81%;
+}
+
+
+
+.signIn p span a{
+    color: black;
+    margin-left: 6px;
+}

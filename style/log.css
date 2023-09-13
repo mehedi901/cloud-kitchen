@@ -16,8 +16,9 @@ body{
     min-height: 100vh;
 }
 .logback{
+
     padding: 20px;
-    height: 210px;
+    height: 230px;
     width: 300px;
     background-color:white;
     border-radius: 20px;
@@ -46,6 +47,7 @@ button{
     border: none;
 }
 input{
+    padding: 5px;
     background-color: #DBCAC2;
    
 }
