@@ -47,11 +47,52 @@ button{
     border: none;
 }
 input{
-    padding: 5px;
+ 
     background-color: #DBCAC2;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
    
 }
 .logback h1{
     font-family: 'Segoe Script', sans-serif;
     color: #DBCAC2;
+}
+
+
+@keyframes preload {
+    100%{
+        scale: 0.7;
+        opacity: 0.1;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 414px) {
+    body{
+        height: 100%;
+        width: 100%;
+      
+    }
+    input{
+        padding: 5px 10px;
+        font-size: 17px;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        
+        color: white;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    input{
+        width: 250px;
+    }
 }

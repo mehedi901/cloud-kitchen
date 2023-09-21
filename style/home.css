@@ -56,3 +56,20 @@ body{
 main{
   margin-top: 50px;
 }
+
+@media screen and (max-width: 414px) {
+  body{
+      height: 100%;
+      width: 100%;
+    
+  }
+
+
+  }
+
+
+@media screen and (max-width: 320px) {
+  input{
+      width: 250px;
+  }
+}

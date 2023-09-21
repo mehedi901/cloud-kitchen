@@ -43,9 +43,15 @@ h1{
 }
 
 input{
-    padding: 6px;
+  
     margin-top: 10px;
     margin-left: 10px;
+    padding: 5px 10px;
+    font-size: 17px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    
+    color: white;
 }
 
 .details input{
@@ -98,4 +104,27 @@ input{
 .signIn p span a{
     color: black;
     margin-left: 6px;
+}
+
+
+@media screen and (max-width: 414px) {
+    .login{
+        height: 100%;
+        width: 100%;
+      
+    }
+    input{
+        padding: 5px 10px;
+        font-size: 17px;
+        border: 1px solid whitesmoke;
+        border-radius: 5px;
+        
+        color: white;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    input{
+        width: 250px;
+    }
 }
