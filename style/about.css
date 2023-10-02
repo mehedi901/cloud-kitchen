@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+} 
+
+body{
+    padding: 10px;
+    background: url(../Pic/pexels-rachel-claire-5531301.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+  /* nav section  */  
+  
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+   }
+  nav > ul {
+    display: flex;
+  }
+  nav li {
+    list-style: none;
+    text-decoration: none;
+    margin-right: 52px;
+    padding: 5px;
+  }
+  nav li a {
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    font-style: bold;
+    font-size: 20px;
+  }
+  .home-btn{
+    margin-top: -5px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color:#00524A ;
+    border: none;
+  }
+  nav li a:hover{
+    background-color: #00524A;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+
+/* main section  */
+
+.div-c
+{
+    margin-top: 18%;
+    padding-left: 5%;
+}
+h1{
+    color: white;
+    font-family: 'Bitter', serif;
+    font-size: 60px;
+}
+p{
+    margin-top: 2%;
+    color: white;
+    font-size: large;
+}
+.b-btn{
+    margin-top: 1%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color:#046e63;
+}
+.b-btn a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    font-weight:200;
+    font-style:bold;
+}
